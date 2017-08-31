@@ -1,0 +1,38 @@
+<!-- - -->
+<html>
+  <head>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+    
+    <body id="body">
+      <h1 class="form-title">Ansible Requisition Form</h1>
+        <form>  
+          <div class="project-input-field four columns">
+            <label for='project-input-field'>Project Name:</label>
+            <input class="u-full-width" id='project-input-field'>
+          </div>
+          <div class="management-input-field four columns">
+            <label for='management-input-field'>Manager Contact:</label>
+            <input class="u-full-width" id='management-input-field'>
+          </div>
+          <div class="developer-input-field four columns">
+            <label for='developer-input-field'>Developer Contact:</label>
+            <input class="u-full-width" id='developer-input-field'>
+          </div>
+        </form>
+      <div class="requested-project-field"></div>
+        <div class="ansible-form"></div>
+        <div class="selection-list two columns" id="package-list"></div>
+        <div class="selection-list-configuration seven columns" id="config-list"></div>
+        <div class="shopping-cart three columns">
+          <h3 class="shopping-cart-header"> Shopping Cart </h3>
+          <div id="shopping-cart-items"></div>
+          <input type="submit" id="submit-button" value="Submit">
+        </div>
+    </body>
+  <script src="/jquery-2.1.3.min.js"></script>
+  <!-- // <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> -->
+  <script src="script.js" type="text/javascript"></script>
+</html>
